@@ -1,0 +1,51 @@
+# Best practices
+
+These are the practical rules that make Elastic docs strong and usable.
+
+## General best practices
+
+- Focus on the user goal
+- Keep tasks small and specific
+- Prefer action-oriented writing
+- Keep steps sequential and clear
+- Show the outcome when useful
+- Link to deeper documentation instead of repeating it
+
+## How-to best practices
+
+- Treat the page like a recipe
+- One task per page
+- Keep steps independent and easy to follow
+- Use clear task titles and prerequisites
+- Use success checks when needed
+
+## Overview best practices
+
+- Explain what it is and why it matters
+- Cover how it works at a high level
+- Avoid expanding into step-by-step instructions
+- Link to deeper docs for implementation details
+
+## Tutorial best practices
+
+- Be explicit about audience and learning objectives
+- Build from simple to complex
+- Include checkpoints after major stages
+- Provide realistic examples
+
+## Troubleshooting best practices
+
+- Describe a single problem clearly
+- Focus on symptoms first
+- Give direct remediation steps
+- Order fixes from most common to least common
+
+## Review checklist
+
+Before publishing, ask:
+- Does this match the right content type?
+- Is the structure complete?
+- Are the steps clear and actionable?
+- Is the language concise and consistent?
+- Is the document accessible and scan-friendly?
+- Are the examples realistic and supported?

@@ -1,0 +1,82 @@
+# Formatting guide
+
+This guide covers the formatting conventions used in Elastic documentation.
+
+## Headings
+
+- Use headings to structure content clearly
+- Keep structure hierarchical and predictable
+- Use sentence-style capitalization
+- Avoid formatting headings with bold or italics
+
+## Paragraphs
+
+- Keep paragraphs short and scannable
+- Use one idea per paragraph
+- Use a blank line between blocks and sections
+
+## Lists
+
+### Numbered lists
+Use for procedures and ordered steps.
+
+1. Prepare the environment.
+2. Run the setup command.
+3. Verify the result.
+
+### Bulleted lists
+Use for related options, prerequisites, or grouped items.
+
+- Prerequisite one
+- Prerequisite two
+- Prerequisite three
+
+## Tables
+
+Use tables only when you need to compare multiple items or present structured values.
+
+## Code and commands
+
+- Use backticks for inline code and commands
+- Use fenced code blocks with a language label
+- Use monospace consistently for configuration values, file names, environment variables, and literals
+
+```bash
+curl -X GET "http://localhost:9200/_cluster/health"
+```
+
+## Bold and emphasis
+
+Use bold only for UI elements and labels, such as:
+- **Create**
+- **Settings**
+- **Overview**
+- **Save**
+
+Do not use bold to emphasize ordinary text.
+
+## Admonitions
+
+Use admonitions sparsely.
+
+- Note: useful but non-critical information
+- Tip: shortcut or best practice
+- Warning: risk or irreversible action
+- Important: critical system impact
+- Plain: requirements or context that should stand out
+
+## Accessibility and clarity
+
+- Keep sentences concise
+- Prefer active voice
+- Avoid dense paragraphs
+- Use headings and bullet points for scanning
+- Use descriptive labels and meaningful names
+
+## Code samples
+
+- Keep examples realistic
+- Use consistent indentation
+- Use language-specific syntax highlighting
+- Comment only where necessary
+- Avoid huge blocks of irrelevant code

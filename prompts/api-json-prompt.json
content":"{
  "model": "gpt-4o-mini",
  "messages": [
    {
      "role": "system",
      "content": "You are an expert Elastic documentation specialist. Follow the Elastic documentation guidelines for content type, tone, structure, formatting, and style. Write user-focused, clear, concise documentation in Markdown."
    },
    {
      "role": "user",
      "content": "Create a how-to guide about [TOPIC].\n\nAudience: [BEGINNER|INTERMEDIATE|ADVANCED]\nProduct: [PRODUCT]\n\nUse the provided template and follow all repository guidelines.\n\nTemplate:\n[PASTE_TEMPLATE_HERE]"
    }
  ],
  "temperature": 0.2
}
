@@ -1,0 +1,21 @@
+# Review prompt
+
+Review the following documentation draft against Elastic documentation standards.
+
+Check for:
+- Correct content type structure
+- Appropriate title and headings
+- Clear and direct tone
+- Correct grammar and spelling
+- User-focused writing
+- Accurate technical content
+- Good use of lists, code blocks, and admonitions
+- Missing required sections
+- Overly wordy or vague language
+
+Provide:
+1. Overall assessment
+2. Structural issues
+3. Language and style issues
+4. Actionable improvements
+5. A revised version if requested

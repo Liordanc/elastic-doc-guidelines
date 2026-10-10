@@ -1,0 +1,45 @@
+---
+description: "A concise summary of the feature or concept."
+applies_to:
+  stack:
+  serverless:
+product:
+---
+
+# [Feature or concept name]
+
+## What it is
+
+Explain what the feature or concept is and why it matters.
+
+## Why it matters
+
+Describe the user value and business or technical importance.
+
+## How it works
+
+Describe the core mechanics or workflow at a high level.
+
+## Typical use cases
+
+- [Use case 1]
+- [Use case 2]
+- [Use case 3]
+
+## Key considerations
+
+- [Important consideration]
+- [Known limitation or trade-off]
+- [Operational note]
+
+## Next steps
+
+- [Related tutorial]
+- [How-to guide]
+- [Reference material]
+
+## Related pages
+
+- [Concept page]
+- [Reference page]
+- [Related feature overview]

@@ -1,0 +1,15 @@
+# Troubleshooting prompt
+
+Create a troubleshooting guide for the issue below.
+
+Product: [PRODUCT]
+Issue: [ISSUE]
+Symptoms: [LIST OR DESCRIBE USER OBSERVATIONS]
+
+Requirements:
+- Keep the issue narrowly scoped to one problem
+- Include a Symptoms section with clear observations
+- Include a Resolution section with numbered steps
+- Order the steps from most common and effective to less common
+- Avoid long conceptual explanations before the fix
+- Write clearly and directly for frustrated users

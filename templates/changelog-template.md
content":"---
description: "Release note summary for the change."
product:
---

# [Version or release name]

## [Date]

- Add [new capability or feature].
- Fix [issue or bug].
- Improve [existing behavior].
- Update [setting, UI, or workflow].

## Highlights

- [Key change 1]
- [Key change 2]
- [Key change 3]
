@@ -1,0 +1,33 @@
+---
+description: "A brief description of the problem and the recommended resolution."
+applies_to:
+  stack:
+  serverless:
+product:
+---
+
+# [Problem or symptom]
+
+## Symptoms
+
+- [Symptom 1]
+- [Symptom 2]
+- [Symptom 3]
+- [Relevant error message or log output]
+
+## Resolution
+
+1. [Most common fix or first step.]
+2. [Next step if the issue persists.]
+3. [Additional validation or cleanup step.]
+
+## Best practices
+
+- [How to avoid this issue]
+- [Recommended configuration or environment check]
+
+## Related pages
+
+- [Relevant how-to]
+- [Relevant reference page]
+- [Related troubleshooting guide]

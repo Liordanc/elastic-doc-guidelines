@@ -1,0 +1,90 @@
+# Elastic Documentation Guidelines for LLMs
+
+This repository packages the Elastic docs writing standards into a practical, reusable toolkit for AI-assisted content generation.
+
+## Goals
+
+- Generate docs that match Elastic's content type structure
+- Enforce style, tone, grammar, and formatting rules
+- Standardize how-to, overview, tutorial, troubleshooting, and changelog writing
+- Make AI output reviewable, editable, and publishable
+
+## Repository structure
+
+```
+.
+├── README.md
+├── SYSTEM_PROMPT.md
+├── QUICK_START.md
+├── guidelines/
+│   ├── content-types.md
+│   ├── formatting.md
+│   ├── style-tone.md
+│   ├── grammar-spelling.md
+│   ├── word-choice.md
+│   └── best-practices.md
+├── templates/
+│   ├── how-to-template.md
+│   ├── overview-template.md
+│   ├── tutorial-template.md
+│   ├── troubleshooting-template.md
+│   └── changelog-template.md
+├── prompts/
+│   ├── system-prompt-base.txt
+│   ├── how-to-prompt.txt
+│   ├── overview-prompt.txt
+│   ├── tutorial-prompt.txt
+│   ├── troubleshooting-prompt.txt
+│   ├── changelog-prompt.txt
+│   ├── review-prompt.txt
+│   └── api-json-prompt.json
+├── examples/
+│   ├── good-how-to.md
+│   ├── good-overview.md
+│   ├── good-troubleshooting.md
+│   └── review-checklist.md
+└── LICENSE
+```
+
+## How to use
+
+### Option 1: LLM chat UI
+
+1. Copy `SYSTEM_PROMPT.md` or `prompts/system-prompt-base.txt`
+2. Paste it into the system or custom instructions area
+3. Then send a task like:
+   - "Create a how-to guide about configuring Elasticsearch in Docker"
+   - "Write an overview of data streams"
+   - "Draft a troubleshooting page for no logs in Kibana"
+4. Include the relevant template from `templates/`
+
+### Option 2: API usage
+
+Use `prompts/api-json-prompt.json` as a starting payload for OpenAI/Anthropic/Gemini-compatible workflows.
+
+## Content types included
+
+- How-to guides
+- Overviews
+- Tutorials
+- Troubleshooting pages
+- Changelogs
+
+## Core rules
+
+- Write for real users, not for internal teams
+- Use clear instructions and simple structure
+- Prefer active voice
+- Use present tense
+- Keep content scannable
+- Use the correct content type structure
+- Avoid unsupported claims and invented details
+
+## Related source
+
+This package is derived from Elastic documentation guidance in:
+https://github.com/elastic/docs-content
+
+## License
+
+This repository is provided as an internal documentation helper and reference package. It is intended for guided documentation generation workflows.

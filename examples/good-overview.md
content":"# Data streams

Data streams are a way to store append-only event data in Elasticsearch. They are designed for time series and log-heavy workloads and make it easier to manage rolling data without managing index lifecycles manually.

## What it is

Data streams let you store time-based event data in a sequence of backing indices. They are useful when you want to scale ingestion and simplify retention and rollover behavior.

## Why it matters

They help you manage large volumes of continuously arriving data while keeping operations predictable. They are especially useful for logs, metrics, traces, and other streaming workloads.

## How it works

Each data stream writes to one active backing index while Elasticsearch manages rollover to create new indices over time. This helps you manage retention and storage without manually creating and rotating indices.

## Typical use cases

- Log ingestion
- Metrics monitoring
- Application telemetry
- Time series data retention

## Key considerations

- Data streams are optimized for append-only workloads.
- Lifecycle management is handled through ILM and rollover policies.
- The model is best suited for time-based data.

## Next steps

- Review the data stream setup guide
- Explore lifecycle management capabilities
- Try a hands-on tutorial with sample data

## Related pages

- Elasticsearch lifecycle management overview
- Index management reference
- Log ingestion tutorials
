@@ -1,0 +1,44 @@
+# Example: Good how-to
+
+# Configure Elasticsearch for local development
+
+This guide helps you start a local Elasticsearch instance for development and testing.
+
+## Before you begin
+
+- You need Docker installed on your machine.
+- You need permission to run local containers.
+- You should be familiar with basic command-line usage.
+
+## Start Elasticsearch
+
+1. Create a Docker network for your local environment.
+2. Start the Elasticsearch container with the required environment variables.
+3. Verify that the cluster is healthy.
+
+```bash
+docker network create elastic
+
+docker run -d --name es01 --network elastic -p 9200:9200 -p 9300:9300 \
+  -e "discovery.type=single-node" \
+  -e "xpack.security.enabled=false" \
+  docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+```
+
+4. Check the health endpoint.
+
+```bash
+curl -X GET "http://localhost:9200/_cluster/health?pretty"
+```
+
+## Next steps
+
+- Create an index and add sample data.
+- Review the Elasticsearch reference docs.
+- Explore related examples and tutorials.
+
+## Related pages
+
+- Elasticsearch overview
+- Elasticsearch reference guide
+- Docker setup guide

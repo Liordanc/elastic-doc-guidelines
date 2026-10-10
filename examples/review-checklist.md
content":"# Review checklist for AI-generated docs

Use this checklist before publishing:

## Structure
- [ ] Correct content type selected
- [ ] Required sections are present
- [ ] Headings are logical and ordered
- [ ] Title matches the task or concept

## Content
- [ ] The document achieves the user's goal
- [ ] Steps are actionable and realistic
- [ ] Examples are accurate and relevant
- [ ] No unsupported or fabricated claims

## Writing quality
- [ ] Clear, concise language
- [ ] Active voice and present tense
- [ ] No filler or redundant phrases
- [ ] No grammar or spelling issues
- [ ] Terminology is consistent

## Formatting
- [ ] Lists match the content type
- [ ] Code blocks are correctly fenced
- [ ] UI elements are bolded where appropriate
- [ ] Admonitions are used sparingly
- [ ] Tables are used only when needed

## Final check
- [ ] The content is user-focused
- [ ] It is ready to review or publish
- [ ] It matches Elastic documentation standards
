@@ -1,0 +1,29 @@
+# Example: Good troubleshooting
+
+# No data appears in Kibana
+
+## Symptoms
+
+- The dashboard shows no data.
+- The index pattern is valid, but no documents appear.
+- The Elasticsearch cluster is running, but the ingest path is not populating the expected index.
+
+## Resolution
+
+1. Verify that the data is reaching Elasticsearch.
+2. Confirm the target index exists and matches the index pattern.
+3. Check that the ingest pipeline or connector is configured correctly.
+4. Review logs for transport or indexing errors.
+5. Validate the data view in Kibana and refresh the UI.
+
+## Best practices
+
+- Use the same naming convention in the ingest path and data view.
+- Verify the target index before troubleshooting dashboards.
+- Monitor ingestion logs during rollout or configuration updates.
+
+## Related pages
+
+- Kibana data view documentation
+- Elasticsearch ingest guides
+- Troubleshooting index issues

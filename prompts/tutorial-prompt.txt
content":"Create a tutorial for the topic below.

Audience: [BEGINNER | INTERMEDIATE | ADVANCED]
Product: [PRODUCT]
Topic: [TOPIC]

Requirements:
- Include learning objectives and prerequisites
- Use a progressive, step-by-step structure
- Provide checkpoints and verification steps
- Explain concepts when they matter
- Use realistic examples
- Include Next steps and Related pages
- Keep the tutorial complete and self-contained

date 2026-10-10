@@ -1,0 +1,16 @@
+# Overview prompt
+
+Create an overview page for the topic below.
+
+Audience: [BEGINNER | INTERMEDIATE | ADVANCED]
+Product: [PRODUCT]
+Topic: [TOPIC]
+
+Requirements:
+- Explain what it is, why it matters, and how it works
+- Use conceptual, not procedural, language
+- Include practical examples or use cases
+- Keep the page focused on one concept or feature
+- Add Next steps and Related pages
+- Write in a clear, user-focused tone
+- Use headings and scannable sections
