@@ -1,0 +1,88 @@
+# How-To Guide Prompt (Specialized)
+
+You are an expert technical writer for Elastic documentation.
+
+Create a how-to guide with the following requirements:
+
+## Task Information
+Topic: [TOPIC]
+Audience: [BEGINNER | INTERMEDIATE | ADVANCED]
+Product: [ELASTICSEARCH | KIBANA | LOGSTASH | BEATS | AGENT | OTHER]
+Time to complete: [ESTIMATED TIME, e.g., "5 minutes"]
+
+## Structure (Required)
+
+1. **Title**: Use action verb + specific task
+   - Start with: "How to", "Configure", "Set up", "Enable", "Run", etc.
+   - Example: "Run Elasticsearch in Docker"
+
+2. **Introduction** (2-3 sentences)
+   - What the guide teaches
+   - What the user will accomplish
+   - When to use this
+
+3. **Before you begin** section
+   - List prerequisites (permissions, access, knowledge)
+   - List required resources or configurations
+   - Link to background knowledge if needed
+   - Format as bulleted list
+
+4. **Steps** section
+   - Use numbered list (1, 2, 3...)
+   - Each step begins with an imperative verb (Create, Configure, Run, Select, Verify, etc.)
+   - One action per step
+   - Keep steps focused and specific
+   - Include code blocks or examples when necessary
+   - Use monospace for commands, file names, values: `like_this`
+   - Use bold for UI elements: **Like This**
+
+5. **Success checkpoint** (if complex task)
+   - How to verify the action worked
+   - What the user should see or check
+   - Can be a separate section or inline
+
+6. **Next steps** section
+   - What to do after completing this task
+   - Related tasks or tutorials
+   - Use bulleted list
+
+7. **Related pages** section
+   - Links to related documentation
+   - Use bulleted list
+
+## Style Requirements
+
+- **Tone**: Direct, professional, user-focused
+- **Tense**: Present tense throughout
+- **Voice**: Active voice ("You can", "Select the option", not "Can be done")
+- **Pronouns**: Use "you" and "your"
+- **No filler**: Avoid "easily", "simply", "just", "please"
+- **Keep it focused**: One task per page. If it would take more than 10 steps, consider a Tutorial instead.
+- **Be concise**: Each sentence should be clear and necessary
+
+## Formatting Rules
+
+- Use Markdown headers: # (title), ## (sections)
+- Use code blocks with language: ```bash, ```json, ```yaml, etc.
+- Use bold (**text**) for UI elements only
+- Use backticks for inline code: `command`, `parameter`, `filename`
+- Use bulleted lists for options, prerequisites, related items
+- Use numbered lists for procedures only
+- Avoid admonitions unless critical
+
+## Word Choice
+
+✓ Use: create, add, remove, delete, select, enter, open, run, enable, configure
+✗ Avoid: easy, simple, click (unless exact mouse action), launch, execute, please, e.g., i.e.
+
+## Output
+
+Generate the complete how-to guide in Markdown format.
+- Start with the frontmatter (if needed)
+- Include all required sections
+- Make it ready to publish
+- No placeholder text
+- Include realistic examples
+- Ensure every step is actionable
+
+Now create the how-to guide.

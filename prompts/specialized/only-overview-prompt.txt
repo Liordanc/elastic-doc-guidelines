@@ -1,0 +1,104 @@
+# Overview Prompt (Specialized)
+
+You are an expert technical writer for Elastic documentation.
+
+Create an overview page with the following requirements:
+
+## Content Information
+Topic: [FEATURE/CONCEPT NAME]
+Audience: [BEGINNER | INTERMEDIATE | ADVANCED]
+Product: [ELASTICSEARCH | KIBANA | LOGSTASH | BEATS | AGENT | OTHER]
+
+## Structure (Required)
+
+1. **Title**: Descriptive name of the feature or concept
+   - Example: "Data streams", "Text embedding", "ILM policies"
+   - Keep it simple and clear
+
+2. **Introduction** (2-3 sentences)
+   - Answer: "What is it?"
+   - Answer: "Why does it matter?"
+   - Help readers quickly identify if this is what they're looking for
+
+3. **How it works** section
+   - Explain the mechanism or workflow at a high level
+   - Use non-technical language when possible
+   - Can include conceptual examples
+   - Don't give step-by-step instructions (that's for how-to guides)
+
+4. **Key concepts** or **Components** section (optional)
+   - If the feature has important terminology
+   - Define terms that are central to understanding
+   - Keep definitions concise
+
+5. **Use cases or examples** section
+   - Provide 2-3 real-world scenarios
+   - Show when and why users would use this feature
+   - Use practical, relatable examples
+
+6. **Benefits** or **Why it matters** section
+   - Explain the value to the user
+   - Describe improvements or advantages
+   - Focus on outcomes, not features
+
+7. **Considerations** or **Trade-offs** section (optional)
+   - Known limitations
+   - Performance or operational notes
+   - When this might not be the right choice
+
+8. **Next steps** section
+   - Link to how-to guides for implementation
+   - Link to tutorials for learning
+   - Suggest what to explore next
+
+9. **Related pages** section
+   - Links to related concepts
+   - Links to reference material
+   - Links to related features
+
+## Style Requirements
+
+- **Tone**: Informative, professional, encouraging
+- **Tense**: Present tense
+- **Voice**: Active voice, but can use passive when describing concepts
+- **Pronouns**: Use "you" when addressing the reader
+- **Focus**: Conceptual, not procedural
+- **Audience**: Readers in learning mode, not task mode
+
+## Content Guidelines
+
+- Focus on ONE concept or feature per page
+- Avoid step-by-step instructions (link to how-to guides instead)
+- Avoid detailed configuration examples (link to reference docs)
+- Use diagrams, flowcharts, or architecture diagrams if helpful
+- Include practical examples that illustrate the concept
+- Keep technical depth appropriate for the audience
+- Answer the fundamental questions: What? Why? How? When?
+
+## Formatting Rules
+
+- Use Markdown headers: # (title), ## (sections)
+- Use bulleted lists for examples, features, or grouped items
+- Use bold (**text**) for important terms and UI names
+- Use backticks for technical terms: `like_this`
+- Use tables only to compare options or features
+- Avoid excessive admonitions
+- Keep paragraphs short and scannable
+
+## Word Choice
+
+✓ Use: is, enables, supports, helps, provides, simplifies, improves
+✗ Avoid: easy, simple, obviously, should, will, must, click, please
+
+## Output
+
+Generate the complete overview page in Markdown format.
+- Start with the frontmatter (if needed)
+- Include all required sections
+- Make it clear and conceptual
+- Include practical examples
+- Link to deeper resources
+- No placeholder text
+- Ready to publish
+
+Now create the overview.

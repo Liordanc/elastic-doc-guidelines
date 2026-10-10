@@ -1,0 +1,120 @@
+# Tutorial Prompt (Specialized)
+
+You are an expert technical writer for Elastic documentation.
+
+Create a tutorial with the following requirements:
+
+## Tutorial Information
+Topic: [TUTORIAL TITLE / LEARNING GOAL]
+Audience: [BEGINNER | INTERMEDIATE | ADVANCED]
+Product: [ELASTICSEARCH | KIBANA | LOGSTASH | BEATS | AGENT | OTHER]
+Estimated time: [TIME, e.g., "30 minutes"]
+
+## Structure (Required)
+
+1. **Title**: What users will accomplish
+   - Example: "Build an ingest pipeline with processors"
+   - Focus on the learning outcome, not just the task
+
+2. **Overview** section
+   - Brief description of what the tutorial teaches
+   - Who it's for (skill level)
+   - What users will be able to do by the end
+   - Real-world context or use case
+
+3. **Learning objectives** section
+   - Bulleted list of specific skills/knowledge
+   - Use action verbs: "understand", "configure", "create", "implement"
+   - Example: "- Create your first ingest pipeline"
+
+4. **Before you begin** section
+   - Prerequisites (knowledge, software, access)
+   - Required tools and versions
+   - Data or environment setup needed
+   - Time estimate
+   - Link to relevant background material
+
+5. **Tutorial sections** (multiple sections, each with a task)
+   - Group related steps into logical sections
+   - Each section should have a clear heading
+   - Use numbered steps (1, 2, 3...) within each section
+   - Each step begins with an imperative verb
+   - Keep steps sequential and building on each other
+
+6. **Checkpoints** (after each major section)
+   - Verification steps
+   - What the user should see or result they should get
+   - Helps confirm progress before moving to next section
+   - Format: "Checkpoint: You should now see..."
+
+7. **Code annotations** (if applicable)
+   - Explain important lines in code blocks
+   - Use comments in code or callouts nearby
+   - Help readers understand what they're doing
+
+8. **Summary** section (optional)
+   - Recap what was learned
+   - Reinforce the learning objectives
+   - Celebrate the achievement
+
+9. **Next steps** section
+   - Related tutorials to explore
+   - Features to try next
+   - Ways to build on what they've learned
+
+10. **Related pages** section
+    - Links to how-to guides
+    - Links to reference documentation
+    - Links to related tutorials
+
+## Style Requirements
+
+- **Tone**: Friendly, encouraging, supportive
+- **Tense**: Present tense
+- **Voice**: Active voice, guide the learner
+- **Pronouns**: "You", "your", "we" (when collaborative)
+- **Focus**: Progressive learning, building skills step-by-step
+- **Guidance**: Explain WHY things work, not just HOW
+
+## Content Guidelines
+
+- Start simple, build complexity gradually
+- Assume users are new to the feature or workflow
+- Provide encouragement and context
+- Use realistic, relatable examples
+- Each step should build on previous steps
+- Include checkpoints so users know they're on track
+- Be complete: users shouldn't need to jump to other docs
+- Use clear, descriptive headings for each section
+- Balance between guidance and independence
+
+## Formatting Rules
+
+- Use Markdown headers: # (title), ## (sections), ### (subsections)
+- Use numbered lists for procedures
+- Use bulleted lists for options, prerequisites, objectives
+- Use code blocks with language specification: ```bash, ```json, ```yaml
+- Use bold (**text**) for UI elements and important terms
+- Use backticks for commands, files, values: `like_this`
+- Include screenshots or diagrams if they clarify complex UI
+- Use admonitions sparingly for important notes or tips
+
+## Word Choice
+
+✓ Use: create, build, configure, set up, enable, understand, explore
+✗ Avoid: easy, simple, just, click (unless exact mouse action), will, must, should
+
+## Output
+
+Generate the complete tutorial in Markdown format.
+- Include all required sections
+- Start with frontmatter (if needed)
+- Make it progressive and learner-friendly
+- Include realistic examples
+- Include verification checkpoints
+- Include helpful explanations
+- No placeholder text
+- Ready to publish
+- Test-ready (users should be able to follow start to finish)
+
+Now create the tutorial.

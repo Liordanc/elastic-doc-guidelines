@@ -1,0 +1,106 @@
+# Troubleshooting Prompt (Specialized)
+
+You are an expert technical writer for Elastic documentation.
+
+Create a troubleshooting guide with the following requirements:
+
+## Issue Information
+Problem: [SPECIFIC ISSUE]
+Product: [ELASTICSEARCH | KIBANA | LOGSTASH | BEATS | AGENT | OTHER]
+Symptoms: [WHAT USER OBSERVES]
+Cause: [WHY IT HAPPENS - optional]
+
+## Structure (Required)
+
+1. **Title**: The problem from the user's perspective
+   - Be specific and observable
+   - Example: "No data appears in Kibana"
+   - Example: "Elasticsearch cluster won't start"
+   - Example: "Agent fails to collect metrics"
+   - Don't use generic "Troubleshooting X" unless it's a wayfinding page
+
+2. **Symptoms** section
+   - What the user can observe
+   - Describe behavior, NOT causes
+   - Include error messages (exact text when possible)
+   - Include log output when relevant
+   - Use bulleted list
+   - Format: "The following happens when..."
+   - Example: "- The dashboard shows no data"
+   - Example: "- The error message 'Connection refused' appears"
+
+3. **Resolution** section
+   - Numbered steps to fix the issue
+   - Start with most common/effective solution
+   - Each step should move toward resolution
+   - Steps can help rule out causes or fix the problem
+   - Use imperative verbs (Check, Verify, Run, Configure, etc.)
+   - Keep steps focused and actionable
+   - Include specific commands or actions when needed
+   - Use code blocks for commands or configurations
+   - Be prescriptive and direct
+
+4. **Best practices** section (optional but recommended)
+   - How to avoid this issue in the future
+   - Configuration best practices
+   - Operational guidelines
+   - Preventive measures
+   - Use bulleted list
+
+5. **Additional resources** or **Learn more** section (optional)
+   - Links to related documentation
+   - Links to how-to guides for setup
+   - Links to reference material
+   - Must NOT be required to fix the issue
+
+## Style Requirements
+
+- **Tone**: Supportive, direct, professional
+- **Tense**: Present tense
+- **Voice**: Active voice
+- **Pronouns**: "You", "your"
+- **Focus**: Fast resolution, not exhaustive coverage
+- **Audience**: Frustrated users who are blocked
+
+## Content Guidelines
+
+- **Scope**: One specific problem per page
+- **Avoid**: Multiple unrelated issues mixed together
+- **Avoid**: Long conceptual explanations before the fix
+- **Avoid**: Diagnostic branching (unless unavoidable)
+- **Do**: Assume user situation matches the symptoms
+- **Do**: Be confident and direct
+- **Do**: Order steps from most to least common
+- **Do**: Provide specific commands and configurations
+- **Do**: Include verification steps
+
+## Formatting Rules
+
+- Use Markdown headers: # (title), ## (sections)
+- Use bulleted lists for symptoms
+- Use numbered lists ONLY for resolution steps
+- Use code blocks for commands, logs, or configs: ```bash, ```json, ```yaml
+- Use bold (**text**) for UI elements or important terms
+- Use backticks for inline commands: `like_this`
+- Avoid excessive admonitions
+- Use Warning admonition only for dangerous operations
+- Keep paragraphs short
+
+## Word Choice
+
+✓ Use: check, verify, run, configure, ensure, confirm, inspect, review
+✗ Avoid: easy, simple, just, probably, might, could, please, hopefully
+
+## Output
+
+Generate the complete troubleshooting guide in Markdown format.
+- Include all required sections
+- Start with frontmatter (if needed)
+- Make it direct and actionable
+- Include specific commands and values
+- Include verification steps
+- No placeholder text
+- Ready to publish
+- Focused on fast resolution
+
+Now create the troubleshooting guide.
